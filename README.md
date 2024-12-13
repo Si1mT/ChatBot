@@ -17,6 +17,12 @@ The project involves training several chatbots (and QA bots) using different dat
 
 <h2>Overview of files</h2>
 
+<h4>dataset.txt</h4>
+<p>This is the file of the Kaggle dataset. This file is used in the notebooks that mention Kaggle in the name.</p>
+
+<h4>generated_dataset_clean.txt</h4>
+<p>This is the file of the ChatGPT-generated dataset. This file is used in the notebooks that mention ChatGPT in the name.</p>
+
 <h4>BoW_basic_chatbot_Kaggle-ChatGPT.ipynb</h4>
 <p>This notebook contains code for training basic chatbots from scratch on the Kaggle and ChatGPT datasets. The model is based on a Bag-of-words approach and does not yield good results (which is to be expected with such an unsophisticated model).</p>
 
@@ -31,6 +37,8 @@ The project involves training several chatbots (and QA bots) using different dat
 
 <h4>DistilBERT_QA_fine-tuned_SQuAD.ipynb</h4>
 <p>This notebook contains code for fine-tuning DistilBERT for QA purposes, using the SQuAD dataset. The code includes training with different amounts of data. The EM and F1 scores are calculated also.</p>
+
+<p>All notebooks are suited for running in Colab. Instructions for switching datasets are included in the comments inside the notebooks.</p>
 
 <h4>Fine-tuning ChatGPT</h4>
 <p>The code for the attempt at fine-tuning ChatGPT is located in this Google Colab notebook (to be updated): https://colab.research.google.com/drive/1oG8UQzQlpyTx3lXEYzOFiSImOLyLeCmC?usp=sharing </p>
