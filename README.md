@@ -32,4 +32,5 @@ The project involves training several chatbots (and QA bots) using different dat
 <h4>DistilBERT_QA_fine-tuned_SQuAD.ipynb</h4>
 <p>This notebook contains code for fine-tuning DistilBERT for QA purposes, using the SQuAD dataset. The code includes training with different amounts of data. The EM and F1 scores are calculated also.</p>
 
+<h4>Fine-tuning ChatGPT</h4>
 <p>The code for the attempt at fine-tuning ChatGPT is located in this Google Colab notebook (to be updated): https://colab.research.google.com/drive/1oG8UQzQlpyTx3lXEYzOFiSImOLyLeCmC?usp=sharing </p>
