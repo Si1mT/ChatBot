@@ -23,6 +23,9 @@ The project involves training several chatbots (and QA bots) using different dat
 <h4>generated_dataset_clean.txt</h4>
 <p>This is the file of the ChatGPT-generated dataset. This file is used in the notebooks that mention ChatGPT in the name.</p>
 
+<h4>fixer.py</h4>
+<p>Small file with a script that was used to fix the formatting of the original data created via ChatGPT. Some additional formatting was still done manually. The result of this is the generated_dataset_clean.txt file described above.</p>
+
 <h4>BoW_basic_chatbot_Kaggle-ChatGPT.ipynb</h4>
 <p>This notebook contains code for training basic chatbots from scratch on the Kaggle and ChatGPT datasets. The model is based on a Bag-of-words approach and does not yield good results (which is to be expected with such an unsophisticated model).</p>
 
